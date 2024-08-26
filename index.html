@@ -55,7 +55,18 @@ fieldset {
   width: 460px;
 }
 
-
+.box {
+    position:fixed;
+    bottom:5px;
+    right:5px;
+    width: 250px;
+}
+.GHLink {
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+  
 </style>
 <!--This is the main body of the checkboxes, broken into groups. Very gross-->
 <form>
@@ -121,6 +132,10 @@ fieldset {
 <br><br><br>
 <label for="res">Result:</label><br>
 <textarea id="res" name="res" rows="4" cols="50"></textarea><br>
+
+<div class="box">
+    <a class="GHLink" href="https://github.com/Bromancho/Command-Line-Generator-Webpage">GitHub Repo</p>
+</div>
 
 <!--This should be broken out into it's own file probably as well-->
 <script>
