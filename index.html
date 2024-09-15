@@ -207,7 +207,7 @@ function makeCL(){
 
   //Hacky. make a new set to dedupe array, flatten it to 1D. Join the array into a string, add trailing semicolon cause it's cool.
   let str = Array.from(new Set(op.flat())).join(";") + ";"
-  document.getElementById("res").innerHTML=str;
+  document.getElementById("res").value=str;
 }
 
 //Add Event Listener for selecting all text in the result field.
